@@ -5,7 +5,7 @@ And this is specific to `var` and function declarations `function someFunc() {}`
 
 > Declaration phase -> Initialization phase -> Assignment phase
 
-###1st example
+<h4>1st example</h4>
 
 ````javascript
   foo();
@@ -19,7 +19,7 @@ And this is specific to `var` and function declarations `function someFunc() {}`
   }
 ````
 
-##2nd example
+<h4>2nd example</h4>
 ````javascript
 console.log(test(2,3)); // this returns 5
 console.log(age); // this returns undefined
