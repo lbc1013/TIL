@@ -18,7 +18,7 @@ And this is specific to `var` and function declarations `function someFunc() {}`
   }
 
 //2nd example
-onsole.log(test(2,3)); // this returns 5
+console.log(test(2,3)); // this returns 5
 console.log(age); // this returns undefined
 console.log(name); // this returns ReferenceError
 
