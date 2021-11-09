@@ -5,23 +5,20 @@ And this is specific to `var` and function declarations `function someFunc() {}`
 
 > Declaration phase -> Initialization phase -> Assignment phase
 
-<h4>1st example</h4>
-
 ````javascript
+//1st example
   foo();
   foo2();
 
-  function foo() { // 함수선언문
+  function foo() { // Function Declaration
           console.log("hello");
   }
-  var foo2 = function() { // 함수표현식
+  var foo2 = function() { // Function Express
           console.log("hello2");
   }
-````
 
-<h4>2nd example</h4>
-````javascript
-console.log(test(2,3)); // this returns 5
+//2nd example
+onsole.log(test(2,3)); // this returns 5
 console.log(age); // this returns undefined
 console.log(name); // this returns ReferenceError
 
@@ -30,6 +27,5 @@ function test (x,y) {
 }
 
 const name = 'ByungChan';
-
 var age = 30;
 ````
