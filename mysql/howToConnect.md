@@ -1,4 +1,4 @@
-## How To connecto db
+## How To connect db
 
 
 // 1. Create the mysql
