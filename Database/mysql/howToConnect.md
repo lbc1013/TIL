@@ -1,4 +1,4 @@
-## How To connect db
+## How To connect db using mysql
 
 
 // 1. Create the mysql
@@ -20,7 +20,7 @@ dbconnection.connect((err) => {
   }
 });
 
-connection.query('SELECT 1 + 1 AS solution', function (error, results, fields) {
+connection.query('SELECT * FROM TABLE_NAME', (error, results) => {
   if (error) throw error;
   console.log('The solution is: ', results[0].solution);
 });
