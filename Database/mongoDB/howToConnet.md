@@ -13,14 +13,11 @@ mongoose.connect('mongodb://localhost/DB_NAME')
   .catch((err) => {
     console.log('not connected to db');
   })
-
-
 ````
 
 // 2. Create Schema.
 
 ````javascript
-
 const { Schema } = mongoose;
 
 //Schema setup example

@@ -24,7 +24,6 @@ connection.query('SELECT * FROM TABLE_NAME', (error, results) => {
   if (error) throw error;
   console.log('The solution is: ', results[0].solution);
 });
-
 ````
 
 // 2. Use schema.sql to create table's descrition at once.
