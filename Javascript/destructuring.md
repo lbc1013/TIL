@@ -1,9 +1,10 @@
-## Destructuring
+# Destructuring
 
-> ES6 provides a new feature called destructing assignment that allows you to destructure properties of an object or elements of an array into individual variables.
-> Destructuring assignment allows for instantly mapping an object or array onto many variables.
+> - ES6 provides a new feature called destructing assignment that allows you to destructure properties of an object or elements of an array into individual variables.
+> 
+> - Destructuring assignment allows for instantly mapping an object or array onto many variables.
 
-# Array destructuring
+## Array destructuring
 
 ````javascript
 function getScores() {
@@ -17,7 +18,7 @@ console.log(y); // 80
 console.log(z); // undefined
 
 ````
-# Object destructuring
+## Object destructuring
 
 ````javascript
 1.
